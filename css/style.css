@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(36, 36, 36);
+  box-sizing: border-box;
+}
+header .logo {
+  color: white;
+  height: 50px;
+  width: 50px;
+  padding-left: 100px;
+}
+header a,
+footer a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+}
+#login {
+  margin-left: 2px;
+}
+.log {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 70px;
+}
+#loginImg {
+  height: 20px;
+  width: 20px;
+  color: white;
+}
+#login {
+  font-size: 14px;
+}
+.blue {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(61, 111, 187);
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 300px;
+  box-sizing: border-box;
+}
+.blue #avatar {
+  height: 300px;
+  width: 300px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.blue #logo {
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  color: white;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.button {
+  margin: auto;
+}
+#start {
+  background-color: rgb(224, 150, 12);
+  color: white;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.content p {
+  font-size: 20px;
+}
+p {
+  color: white;
+}
+.title h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+}
+.blue2 {
+  background-color: rgb(61, 111, 187);
+  display: flex;
+  height: 300px;
+  box-sizing: border-box;
+}
+.blue2 div {
+  width: 47%;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+#content2 {
+  height: 300px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+#title2 h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  color: rgb(82, 82, 82);
+}
+.gray {
+  background-color: rgb(184, 184, 184);
+  height: 300px;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
+}
+
+#content3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#content3 svg {
+  height: 100px;
+  width: 100px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.blueButton {
+  background-color: rgb(1, 1, 145);
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px 20px;
+  margin-right: 3px;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+.orangeButton {
+  background-color: rgb(224, 150, 12);
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 3px;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+footer {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  height: 50px;
+  box-sizing: border-box;
+}
+footer a {
+  padding-right: 10px;
+  margin-left: 10px;
+  border-right: 1px solid white;
+}
+footer a:last-child {
+  border: none;
+}
+footer p {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: 0px;
+}
